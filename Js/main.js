@@ -67,10 +67,10 @@ function updateTask(){
 function displayData(list){
     var temp=``;
     for(var i=0; i<list.length; i++){
-        temp+=`<tr id='task' >
+        temp+=`<tr >
         <td>${i+1}</td>
-        <td >${list[i]}</td>
-        <td><div class="btn check-btn btn-sm"><i class="fa-solid fa-check"></i></div></td>
+        <td id='task'>${list[i]}</td>
+        <td><div onclick="checked(${i})" class="btn check-btn btn-sm"><i class="fa-solid fa-check"></i></div></td>
         <td><div onclick="update(${i})" class="btn pen-btn btn-sm"><i class="fa-solid fa-pen"></i></div></td>
         <td><div onclick="deleteElement(${i})" class="btn btn-sm trash-btn"><i class="fa fa-trash" aria-hidden="true" class="text-white"></i></div></td>
         </tr>`; 
@@ -90,29 +90,13 @@ function deleteElement(index){
 
 /* -------------------------------------------- Check ------------------------------------------ */
 
-var tasks = document.querySelectorAll("#task");
-for(var i=0; i<tasks.length; i++){
-    tasks[i].onclick = function(){
-       /*  this.classList.toggle('completed'); */
-       /*  window.localStorage.toggled = "completed"; */
 
-        if (window.localStorage.toggled != "completed" ) {
-            this.classList.toggle('completed');
-            window.localStorage.toggled = "completed";
-            console.log ("if task checked")
+function checked(index){
 
-         } else {
-            console.log ("else task checked")
-            this.classList.toggle('completed');
-            window.localStorage.toggled = "non-completed";
-         }
-    }
-}
-
-/* function checked(index){
-    taskContainer[index].classList.toggle('completed'); 
+    var tasks = document.querySelectorAll("#task");
+    tasks[index].classList.toggle('completed'); 
     
-} */
+}
 
 /* --------------------------------------- Change Language ------------------------------------ */
 
