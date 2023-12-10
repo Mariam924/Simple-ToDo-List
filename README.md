@@ -24,7 +24,18 @@ The "To Do List" is a simple website that allows users to manage their tasks. It
 https://mariam924.github.io/Simple-ToDo-List/
 
 
-## Screenshots
+## 🖥️ Tech Stack
 
-![To-Do-List](https://i.imgur.com/CvLfPIj.png)
+- HTML, CSS, JS, Bootstrap
+- Storge using Local Storage
+
+
+
+## 📂 Screenshots
+### TO DO LIST - English Language 
+![Eng-To-Do List](https://i.imgur.com/CvLfPIj.png)
+
+### TO DO LIST - Arabic Language 
+![AR-To-Do List](https://i.imgur.com/6isAIQA.png)
+
 
