@@ -16,23 +16,18 @@ The "To Do List" is a simple website that allows users to manage their tasks. It
 
 - **Language Toggle**: The application includes a language toggle feature that allows users to switch between Arabic and English. This feature enhances the user experience by providing a localized interface. The language setting is also saved in local storage, so the user’s choice is remembered across sessions.
 
- 
+ ## 🖥️ Tech Stack
 
-
-## Recorded Video
-
-![Cto-do-list-demo](./demo/demo-Gif.gif)
+- HTML, CSS, JS, Bootstrap
+- Storge using Local Storage
 
 ## Live Demo
 
 https://mariam924.github.io/Simple-ToDo-List/
 
+## Recorded Video
 
-## 🖥️ Tech Stack
-
-- HTML, CSS, JS, Bootstrap
-- Storge using Local Storage
-
+![Cto-do-list-demo](./demo/demo-Gif.gif)
 
 
 ## 📂 Screenshots
