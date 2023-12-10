@@ -20,7 +20,7 @@ The "To Do List" is a simple website that allows users to manage their tasks. It
 
 
 ## Recorded Video
-### Cumulative Probability Demo
+
 ![Cto-do-list-demo](./demo/demo-Gif.gif)
 
 ## Live Demo
