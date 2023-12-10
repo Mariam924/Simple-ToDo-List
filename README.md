@@ -26,5 +26,5 @@ https://mariam924.github.io/Simple-ToDo-List/
 
 ## Screenshots
 
-[To-Do List](https://imgur.com/28HJRVQ)
+![To-Do-List](https://i.imgur.com/CvLfPIj.png)
 
